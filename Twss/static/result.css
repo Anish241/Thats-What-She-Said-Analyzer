@@ -1,0 +1,51 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1em;
+    background: #b8c0ff;
+  }
+
+.image-container{
+   
+    /* center of the body */
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+   
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .image-container{
+        width: 100%;
+        height: 100%;
+    }
+    img{
+        width: 100%;
+        height: 100%;
+    }
+}
+
+h1{
+    font-size: 2em;
+    font-weight: 600;
+    color: black;
+    text-align: center;
+   
+    margin-top: 20.5%;
+    
+    /* center of the page */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-self: center;
+
+}
