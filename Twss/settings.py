@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-^1f52$wv-mo9%=%n-u@ne!h5vf)i)#6@_yf*kmf_k=%ay8ls#y
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['*','thats-what-she-said-analyzer-production.up.railway.app']
+ALLOWED_HOSTS = ['*','https://thats-what-she-said-analyzer-production.up.railway.app/','https://thats-what-she-said-analyzer-production.up.railway.app']
 
 
 # Application definition
@@ -44,10 +44,10 @@ INSTALLED_APPS = [
 MIDDLEWARE = [
     'django.middleware.security.SecurityMiddleware',
     'django.contrib.sessions.middleware.SessionMiddleware',
-    #white noise middleware
+    # white noise middleware
     'whitenoise.middleware.WhiteNoiseMiddleware',
     'django.middleware.common.CommonMiddleware',
-    'django.middleware.csrf.CsrfViewMiddleware',
+    # 'django.middleware.csrf.CsrfViewMiddleware',
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
